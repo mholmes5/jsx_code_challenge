@@ -10,12 +10,12 @@ const list = "<ul><li>Feed Me</li><li>Nap Time</li><li>No Baths</li></ul>";
 
 ReactDOM.render(
   <div>
-    <h1>My Top College Baseball Teams</h1>
-    <ul>
+    <h1>My College Baseball Top 3</h1>
+    <ol>
       <li>Arkansas</li>
       <li>Vanderbilt</li>
       <li>Mississippi State</li>
-    </ul>
+    </ol>
   </div>,
   document.getElementById("root")
 );
